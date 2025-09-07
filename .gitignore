@@ -1,0 +1,4 @@
+*.pyc
+allure-results/*
+*.log
+*.csv
