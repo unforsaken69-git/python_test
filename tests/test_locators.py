@@ -11,6 +11,8 @@ def test_locators():
         page.locator("#join").type(" Human")
         check_text = page.locator("#join").input_value()
         print(f"check_text: {check_text}")
+        print(f"check_text: {check_text}")
+        print(f"check_text: {check_text}")
         # 等待並點擊結果
 
         browser.close()
