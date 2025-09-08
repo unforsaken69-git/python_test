@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
+                git branch: 'develop',
+                    url: 'https://github.com/unforsaken69-git/python_test.git'
+                    credentialsId: 'github-token'
             }
         }
 
