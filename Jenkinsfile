@@ -6,7 +6,6 @@ pipeline {
             steps {
                 git branch: 'develop',
                     url: 'https://github.com/unforsaken69-git/python_test.git'
-                    credentialsId: 'github-token'
             }
         }
 
