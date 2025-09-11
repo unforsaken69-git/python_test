@@ -14,7 +14,7 @@ pipeline {
                 bat '''
                     cd C:\\Users\\unforsaken\\Desktop\\temp\\pytest-starter
                     call venv\\Scripts\\activate.bat
-                    pytest --alluredir=reports
+                    pytest --alluredir=allure-results
                 '''
             }
         }
